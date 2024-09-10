@@ -1,6 +1,12 @@
-.ul{
+ul{
     list-style-type: none;
     color: black;
     text-decoration: none;
-    
+    padding: 0px;
+
+}
+
+#clearall{
+    border-radius: 20%;
+    border:1px solid black;
 }

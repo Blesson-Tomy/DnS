@@ -17,4 +17,19 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         }
     });
+
+    // Clear all download links
+    const clearAllBtn = document.getElementById('clearAll');
+    clearAllBtn.addEventListener('click', function() {
+        // Clear the storage
+        chrome.storage.sync.set({ downloadLinksTable: {} }, function() {
+            console.log('Download links cleared.');
+        });
+
+        // Clear the list from the UI
+        const linkList = document.getElementById('downloadLinks');
+        while (linkList.firstChild) {
+            linkList.removeChild(linkList.firstChild);  // Remove each child element
+        }
+    });
 });
