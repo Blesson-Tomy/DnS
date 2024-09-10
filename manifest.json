@@ -1,0 +1,21 @@
+{
+  "manifest_version": 3,
+  "name": "Download Duplicate Detection",
+  "version": "1.2",
+  "permissions": [
+      "downloads",
+      "storage",
+      "scripting",
+      "activeTab"
+  ],
+  "background": {
+      "service_worker": "background.js"
+  },
+  "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+  },
+  "icons": {
+      "48": "icon.png"
+  }
+}
