@@ -19,7 +19,7 @@ Our solution is to develop an extension for the browsers. This extension will re
 ## Team Members:
 1. Ajay Mohan
 2. [Alex George](https://github.com/Alex-George1)
-3. Anna Rose Thomas
+3. [Anna Rose Thomas](https://github.com/anna-rose-004)
 4. [Blesson Karikulammalayil Tomy](https://github.com/blesson-tomy)
-3. Milka Joseph
+3. [Milka Joseph](https://github.com/milkajoseph)
 4. [Sidharth Dev Lal](https://github.com/sidharth1037)
